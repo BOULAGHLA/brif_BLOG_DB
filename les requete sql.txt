@@ -1,0 +1,16 @@
+Sélectionner des données (SELECT) :
+
+SELECT * FROM User;
+
+Ajouter des données (INSERT INTO) :
+
+INSERT INTO User (nom,prenom,mail,motoass,id_role) VALUES ('ayoub', 'boulaghla', 'boulaghla.12@example.com','secret789',12);
+
+Mettre à jour des données (UPDATE) :
+
+UPDATE User SET email = 'Ayoub.blg@gmail.com' WHERE id = 2;
+
+Supprimer des données (DELETE FROM) :
+
+DELETE FROM User WHERE id = 2;
+
