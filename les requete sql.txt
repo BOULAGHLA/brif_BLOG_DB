@@ -1,16 +1,9 @@
-Sélectionner des données (SELECT) :
+SELECT => SELECT * FROM User;
 
-SELECT * FROM User;
+Ajouter => INSERT INTO User (nom,prenom,mail,motoass,id_role) VALUES
+('ayoub', 'boulaghla', 'boulaghla.12@example.com','secret789',12);
 
-Ajouter des données (INSERT INTO) :
+UPDATE => UPDATE User SET motoass = 'test1234' WHERE id = x;
 
-INSERT INTO User (nom,prenom,mail,motoass,id_role) VALUES ('ayoub', 'boulaghla', 'boulaghla.12@example.com','secret789',12);
-
-Mettre à jour des données (UPDATE) :
-
-UPDATE User SET motoass = 'test1234' WHERE id = 1;
-
-Supprimer des données (DELETE FROM) :
-
-DELETE FROM User WHERE id = 2;
+Supprimer =>  DELETE FROM User WHERE id = x;
 
